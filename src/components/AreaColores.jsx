@@ -1,5 +1,4 @@
 import React  from 'react'
-import { Color } from 'three'
 import ColorIndividual from './ColorIndividual'
 
 function AreaColores({lista}) {

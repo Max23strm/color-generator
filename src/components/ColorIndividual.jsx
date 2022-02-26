@@ -1,11 +1,9 @@
 import React, {useState} from 'react'
 import { useEffect } from 'react'
-import rgbToHex from '../utils'
 
 function ColorIndividual({rgb, weight, index, hexColor}) {
     const [alert, setAlert]=useState(false)
     const bcg= rgb.join(",")
-    const hex= rgbToHex(...rgb)
     const hexValue=`#${hexColor}`
 
     useEffect(()=>{
